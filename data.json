@@ -1,0 +1,179 @@
+{
+    "Database": [
+        {
+            "Candies": 12,
+            "Cocoa": 160,
+            "Coffee": 5648,
+            "Croissant": 16,
+            "Eclairs": 17,
+            "Macaroon": 23,
+            "Milk": 3930,
+            "Peanuts with condensed milk": 30,
+            "Pies": 7,
+            "Profiteroles": 9,
+            "Quiche": 17,
+            "Sour cream": 3400,
+            "Tea black": 472,
+            "Tea green": 293,
+            "Vanilla": 46
+        }
+    ],
+    "Zvit": [
+        {
+            "X-zvit": 0,
+            "Z-zvit": 195.0
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Macchiato",
+            "price": 40,
+            "product": {
+                "Coffee": 8,
+                "Milk": 60
+            }
+        },
+        {
+            "name": "Cappuccino",
+            "price": 50,
+            "product": {
+                "Coffee": 8,
+                "Milk": 150
+            }
+        },
+        {
+            "name": "Latte",
+            "price": 55,
+            "product": {
+                "Coffee": 8,
+                "Milk": 250
+            }
+        },
+        {
+            "name": "Flat White",
+            "price": 60,
+            "product": {
+                "Coffee": 15,
+                "Milk": 180
+            }
+        },
+        {
+            "name": "Espresso",
+            "price": 30,
+            "product": {
+                "Coffee": 8
+            }
+        },
+        {
+            "name": "Doppio",
+            "price": 50,
+            "product": {
+                "Coffee": 15
+            }
+        },
+        {
+            "name": "Raf",
+            "price": 55,
+            "product": {
+                "Coffee": 8,
+                "Sour cream": 200,
+                "Vanilla": 1.5
+            }
+        },
+        {
+            "name": "Americano",
+            "price": 35,
+            "product": {
+                "Coffee": 8
+            }
+        },
+        {
+            "name": "Americano with milk",
+            "price": 45,
+            "product": {
+                "Coffee": 8,
+                "Milk": 110
+            }
+        },
+        {
+            "name": "Tea black",
+            "price": 25,
+            "product": {
+                "Tea black": 7
+            }
+        },
+        {
+            "name": "Tea green",
+            "price": 25,
+            "product": {
+                "Tea green": 7
+            }
+        },
+        {
+            "name": "Cocoa",
+            "price": 50,
+            "product": {
+                "Cocoa": 10,
+                "Milk": 210
+            }
+        }
+    ],
+    "food": [
+        {
+            "name": "Eclairs",
+            "price": 45,
+            "product": {
+                "Eclairs": 1
+            }
+        },
+        {
+            "name": "Macaroon",
+            "price": 40,
+            "product": {
+                "Macaroon": 1
+            }
+        },
+        {
+            "name": "Peanuts with condensed milk",
+            "price": 20,
+            "product": {
+                "Peanuts with condensed milk": 1
+            }
+        },
+        {
+            "name": "Profiteroles",
+            "price": 60,
+            "product": {
+                "Profiteroles": 1
+            }
+        },
+        {
+            "name": "Candies",
+            "price": 15,
+            "product": {
+                "Candies": 1
+            }
+        },
+        {
+            "name": "Croissant",
+            "price": 60,
+            "product": {
+                "Croissant": 1
+            }
+        },
+        {
+            "name": "Pies",
+            "price": 80,
+            "product": {
+                "Pies": 1
+            }
+        },
+        {
+            "name": "Quiche",
+            "price": 100,
+            "product": {
+                "Quiche": 1
+            }
+        }
+    ]
+}
