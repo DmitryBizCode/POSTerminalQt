@@ -1,0 +1,73 @@
+<RCC>
+    <qresource prefix="/resourses"/>
+    <qresource prefix="/resourse"/>
+    <qresource prefix="/res">
+        <file>img/Americano with milk.png</file>
+        <file>img/Americano.png</file>
+        <file>img/backgr.png</file>
+        <file>img/Cappucino.png</file>
+        <file>img/Cocoa.png</file>
+        <file>img/Doppio.png</file>
+        <file>img/Espresso.png</file>
+        <file>img/Latte.png</file>
+        <file>img/macchiato.jpg</file>
+        <file>img/macchiato.png</file>
+        <file>img/meinacounting.jpg</file>
+        <file>img/Meinsell.jpg</file>
+        <file>img/qwsa.jpg</file>
+        <file>img/Raf.png</file>
+        <file>img/reportmein.jpg</file>
+        <file>img/setting.png</file>
+        <file>img/Tea black.png</file>
+        <file>img/Tea green.png</file>
+        <file>img/Zerno.png</file>
+        <file>img/Candies.png</file>
+        <file>img/Croissant.png</file>
+        <file>img/Eclairs.png</file>
+        <file>img/Macaroon.png</file>
+        <file>img/Peanuts.png</file>
+        <file>img/Pies.png</file>
+        <file>img/Profiteroles.png</file>
+        <file>img/Quiche.png</file>
+        <file>img/Café.jpg</file>
+        <file>img/Fresh Croissants Photographer CV.jpg</file>
+        <file>img/Madeleines pour le thé - La cuisine de Nathalie.jpg</file>
+        <file>img/Mulberry Jam Not Out of the Box.png</file>
+        <file>img/varenie.jpg</file>
+        <file>img/yuit.jpg</file>
+        <file>img/image12.png</file>
+        <file>img/imageqwer.png</file>
+        <file>img/brash.png</file>
+        <file>img/Brash12.png</file>
+        <file>img/Cash.png</file>
+        <file>img/Paymet.png</file>
+        <file>img/Americano2.png</file>
+        <file>img/Candies2.png</file>
+        <file>img/capui2.png</file>
+        <file>img/Cocoa2.png</file>
+        <file>img/Croissant2.png</file>
+        <file>img/Doppio2.png</file>
+        <file>img/Eclairs2.png</file>
+        <file>img/Espresso2.png</file>
+        <file>img/Gorishki2.png</file>
+        <file>img/Latte2.png</file>
+        <file>img/Macaroon2.png</file>
+        <file>img/Macchiato2.png</file>
+        <file>img/number2.png</file>
+        <file>img/Profiteroles2.png</file>
+        <file>img/Quiche2.png</file>
+        <file>img/Raf2.png</file>
+        <file>img/Tea black2.png</file>
+        <file>img/Tea green2.png</file>
+        <file>img/whites.png</file>
+        <file>img/24.png</file>
+        <file>img/Flat1.png</file>
+        <file>img/Fwerghfghh1.png</file>
+        <file>img/Flat21334.png</file>
+        <file>img/Ameridffsfsdffsdf.png</file>
+        <file>img/Pies2.png</file>
+        <file>img/4556dhfghdfhdf.png</file>
+        <file>img/imagedfshhgh.png</file>
+    </qresource>
+    <qresource prefix="/;[["/>
+</RCC>

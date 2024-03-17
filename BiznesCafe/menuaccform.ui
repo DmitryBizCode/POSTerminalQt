@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuACCForm</class>
+ <widget class="QWidget" name="MenuACCForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/backgr.png');
+
+background-repeat: no-repeat;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zerno">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Zerno.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Setting">
+   <property name="geometry">
+    <rect>
+     <x>1727</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/setting.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Datab">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>310</y>
+     <width>481</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>warehouse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="adding">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>570</y>
+     <width>511</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>writing off the goods</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="goods">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>310</y>
+     <width>481</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>adding goods to the warehouse</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>80</y>
+      <width>581</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Msell">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>273</y>
+      <width>657</width>
+      <height>702</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/Meinsell.jpg');
+background-position: center;
+ background-repeat: no-repeat; 
+ border: none; 
+outline: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Macc">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>273</y>
+      <width>701</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/reportmein.jpg');
+background-position: center bottom; 
+background-repeat: no-repeat;
+ background-origin: content; 
+padding-bottom: -100px;
+ border: none; 
+outline: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mrep">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>655</y>
+      <width>701</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/meinacounting.jpg');
+background-position: center;
+ background-repeat: no-repeat; 
+ border: none; 
+outline: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Zerno">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>79</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/Zerno.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>800</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 26pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:45pt;&quot;&gt;Selling&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>470</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 26pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:45pt;&quot;&gt;Report&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>860</y>
+      <width>371</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 26pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:45pt;&quot;&gt;Accounting&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Setting">
+    <property name="geometry">
+     <rect>
+      <x>1727</x>
+      <y>79</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/setting.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(':/res/img/backgr.png');
+background-repeat: no-repeat;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Back</zorder>
+   <zorder>Zerno</zorder>
+   <zorder>label</zorder>
+   <zorder>Msell</zorder>
+   <zorder>Macc</zorder>
+   <zorder>Mrep</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>Setting</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

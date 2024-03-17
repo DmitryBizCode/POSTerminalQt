@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoodsForm</class>
+ <widget class="QWidget" name="GoodsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/backgr.png');
+
+background-repeat: no-repeat;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zerno">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Zerno.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Setting">
+   <property name="geometry">
+    <rect>
+     <x>1727</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/setting.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>610</y>
+     <width>361</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 26pt &quot;Segoe Script&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Push</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>360</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 26pt &quot;Segoe Script&quot;;
+font-size: 40px;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>360</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #64442b;
+/*background-color: rgb(107, 107, 107);*/
+font: 700 26pt &quot;Segoe Script&quot;;
+font-size: 30px;
+color: #FFFFFF;
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Candies</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cocoa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Coffee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Croissant</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eclairs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Macaroon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Milk</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Peanuts with condensed milk</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pies</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Profiteroles</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Quiche</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sour cream</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea black</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea green</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vanilla</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>360</y>
+     <width>400</width>
+     <height>568</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;
+background-image: url(:/res/img/image12.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>360</y>
+     <width>400</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/imageqwer.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

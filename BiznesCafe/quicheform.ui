@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuicheForm</class>
+ <widget class="QWidget" name="QuicheForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/backgr.png');
+
+background-repeat: no-repeat;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zerno">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/24.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>310</y>
+     <width>500</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Quiche2.png');
+background-position: center;
+ background-repeat: no-repeat; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>310</y>
+     <width>711</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quiche (/ˈkiːʃ/ KEESH) is a French tart consisting of&lt;/p&gt;&lt;p&gt;pastry crust filled with savoury custard and pieces of&lt;/p&gt;&lt;p&gt;cheese, meat, seafood or vegetables. A well-known&lt;/p&gt;&lt;p&gt;variant is quiche Lorraine, which includes lardons or&lt;/p&gt;&lt;p&gt;bacon. Quiche may be served hot, warm or cold.&lt;/p&gt;&lt;p&gt;&amp;quot;price&amp;quot;: &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Buttmin">
+   <property name="geometry">
+    <rect>
+     <x>884</x>
+     <y>820</y>
+     <width>79</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
+background-image: url(:/res/img/whites.png);
+
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Buttpl">
+   <property name="geometry">
+    <rect>
+     <x>995</x>
+     <y>820</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
+background-image: url(:/res/img/whites.png);
+
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="numberqwert">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>820</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
+ border: none; 
+outline: none;
+background-image: url(:/res/img/whites.png);
+text-align: center;</string>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>781</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 25pt &quot;Segoe Script&quot;;
+background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>add to list</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="L1">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>618</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Lab1">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>730</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 27pt &quot;Segoe Script&quot;;
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>Quiche</string>
+   </property>
+  </widget>
+  <zorder>Back</zorder>
+  <zorder>Buttmin</zorder>
+  <zorder>numberqwert</zorder>
+  <zorder>label_2</zorder>
+  <zorder>Zerno</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>Buttpl</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>L1</zorder>
+  <zorder>Lab1</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

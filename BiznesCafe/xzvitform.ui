@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XzvitForm</class>
+ <widget class="QWidget" name="XzvitForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/backgr.png');
+background-repeat: no-repeat;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zerno">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Zerno.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Setting">
+   <property name="geometry">
+    <rect>
+     <x>1727</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/setting.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>340</y>
+     <width>631</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:700;&quot;&gt;Store: Store Name &amp;quot;Coffee shop&amp;quot;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Address: Dmitry Beznosiuk&lt;/p&gt;&lt;p&gt;Phone: +380123456789 &lt;/p&gt;&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:700;&quot;&gt;Z-Report&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Hello! We hope this message finds you well. &lt;br/&gt;We are excited to present to you the comprehensive &lt;br/&gt;report for the entire day, packed with valuable &lt;br/&gt;information about our operations: &lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Total Sales Amount:&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cash:&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cashier: Dmitry Beznosiuk &lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Date:&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Time: &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We would like to express our gratitude for your unwavering support and attention.&lt;br/&gt;Your patronage means the world to us! Should you have any inquiries or require further assistance,&lt;br/&gt;please don't hesitate to reach out to our dedicated team. &lt;/p&gt;&lt;p&gt;Once again, we extend our sincerest thanks for your continued trust in our services. &lt;br/&gt;We are always here to serve you. &lt;/p&gt;&lt;p&gt;Best regards,&lt;br/&gt;Dmitry Beznosiuk&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>562</y>
+     <width>49</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>UAH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Price">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>562</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>0.0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>481</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Madeleines pour le thé - La cuisine de Nathalie.jpg');
+background-position: center;
+ background-repeat: no-repeat; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1340</x>
+     <y>350</y>
+     <width>531</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/varenie.jpg');
+background-position: center;
+ background-repeat: no-repeat; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CashX">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>580</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>0.0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>580</y>
+     <width>49</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>UAH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Date">
+   <property name="geometry">
+    <rect>
+     <x>667</x>
+     <y>618</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Time">
+   <property name="geometry">
+    <rect>
+     <x>667</x>
+     <y>636</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 11pt &quot;Segoe MDL2 Assets&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

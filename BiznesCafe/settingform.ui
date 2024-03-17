@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingForm</class>
+ <widget class="QWidget" name="SettingForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/backgr.png');
+background-repeat: no-repeat;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+font: 700 26pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Coffee shop&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zerno">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/Zerno.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Setting">
+   <property name="geometry">
+    <rect>
+     <x>1727</x>
+     <y>79</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(':/res/img/setting.png');
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;
+ border: none; 
+outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>310</y>
+     <width>431</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="horizontalSpacing">
+     <number>6</number>
+    </property>
+    <item row="10" column="3">
+     <widget class="QPushButton" name="p11">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="l8">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Americano</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="l6">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Doppio</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="l2">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Cappuccino</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="l5">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Espresso</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEdit" name="e7">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="l11">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Tea green</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QPushButton" name="p9">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="QPushButton" name="p10">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="p2">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLineEdit" name="e9">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QPushButton" name="p8">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="l7">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Raf</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="e2">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="l4">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Flat White</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="p1">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="e5">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLineEdit" name="e10">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QPushButton" name="p5">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="e4">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="l1">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Macchiato</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="p6">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QPushButton" name="p7">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLineEdit" name="e8">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="e3">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="e1">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2">
+     <widget class="QLineEdit" name="e12">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="QPushButton" name="p12">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QLineEdit" name="e11">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="l12">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Cocoa</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="p3">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="p4">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="l10">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Tea black</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="l9">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Americano with milk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="l3">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Latte</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="e6">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>390</y>
+     <width>491</width>
+     <height>330</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="e13">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="l18">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Croissant</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="p15">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="l14">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Macaroon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QPushButton" name="p19">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="l19">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Pies</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="e20">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QPushButton" name="p18">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="e16">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="e17">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="l13">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Eclairs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="p13">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="l20">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Quiche</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="e18">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="p17">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="e14">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="e15">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="p14">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="e19">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QPushButton" name="p16">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="l16">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Peanuts with condensed milk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QPushButton" name="p20">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="l15">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Profiteroles</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="l17">
+      <property name="styleSheet">
+       <string notr="true">position: absolute;
+font: 700 10pt &quot;Segoe Script&quot;;
+width: 328px;
+height: 88px;
+left: 796px;
+top: 79px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 88px;
+color: #FFFFFF;
+ border: none; 
+outline: none;
+background-position: center;
+ background-repeat: no-repeat; 
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Candies</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
